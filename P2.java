@@ -35,11 +35,11 @@ public class P2 {
         public static void main(String []args) throws IOException { 
                 
                 BufferedReader buffer = new BufferedReader(new FileReader(new File("input2.txt")));
-                Pass2(buffer);
+                Pass1(buffer);
         }
         
         
-        public static void Pass2(BufferedReader buffer) throws IOException {
+        public static void Pass1(BufferedReader buffer) throws IOException {
                 //pntab for each seperate macro
                 List<String>pntab = null;
                 String str = "";
